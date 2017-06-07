@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>météo</title>
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/config.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+
+</head>
+<body>
+    <div id="form">
+
+        <form method="get" id="city-form">
+            <input type="text" id="town" placeholder="ville ?">
+            <input type="submit" value="valider">
+        </form>
+    </div>
+
+    <div id="response">
+        <h2 id="city-name" value="Ville">ville</h2>
+        <img id="icon">
+        <p id="temp"></p>
+        <p id="date"></p>
+        <p id="sunrise"></p>
+        <p id="sunset"></p>
+        <hr>
+        <p id="humidity"></p>
+        <p id="pressure"></p>
+        <p id="wspeed"></p>
+    </div>
+
+    <div id="weekly">
+        <span id="today1"></span>
+        <img id="day1">
+        <span id="today2"></span>
+        <img id="day2">
+        <span id="today3"></span>
+        <img id="day3">
+        <span id="today4"></span>
+        <img id="day4">
+        <span id="today5"></span>
+        <img id="day5">
+        <span id="today6"></span>
+        <img id="day6">
+
+    </div>
+
+</body>
+</html>
